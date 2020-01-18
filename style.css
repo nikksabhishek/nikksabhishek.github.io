@@ -1,53 +1,80 @@
 body{
   margin: 0;
   padding: 0;
-  background-image: url("images/bg.JPG");
-  background-repeat: no-repeat;
-  background-size: cover;
 }
-.box{
-  width: 380px;
-  background: rgba(0, 0, 0, 0.4);
+
+#particles-js {
+  position : absolute;	
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+}
+
+.my-image-box{
+	z-index : 1;
+	width : 280px;
+	height : 450px;
+	display : block;
+	text-align : center;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	float:left;
+	margin-top: 10%;
+	margin-left : 14%;
+	vertical-align: middle;
+}
+.my-image{
+	z-index : 1;
+	height : 450px;
+	width : 300px;
+}
+
+.info-box{
+  z-index : 1;
+  width: 500px;
+  height : 440px;
   padding: 40px;
-  text-align: center;
   margin: auto;
-  margin-top: 5%;
-  color: white;
-  font-family: 'Century Gothic',sans-serif;
+  margin-top: 7%;
+  margin-left : 1%;
+  color: black;
+  float : left;
 }
-.box-img{
-  border-radius: 50%;
-  width: 130px;
-  height: 130px;
+
+#greeting{
+	z-index : 1;
+	font-size : 37px;
+	font-family: 'Ubuntu', sans-serif;
+	text-align : right;
 }
-.box h1{
-  font-size: 30px;
-  letter-spacing: 1px;
-  font-weight: 80;
+#name{
+	z-index : 1;
+	font-size : 20px;
+	font-family: 'Ubuntu', sans-serif;
+	text-align : right;	
 }
-.box h5{
-  font-size: 20px;
-  letter-spacing: 2px;
-  font-weight: 100;
+#info{
+	margin-top : 10%;
+	font-size : 16px;
+	text-align : left;
+	font-family: 'Verdana', sans-serif;
 }
-.box p{
-  text-align: center;
-}
+
 ul{
-  margin: 0;
-  padding: 0;
+	z-index : 1;
+	margin-left : 15%;
+	padding: 80px;
 }
-.box li{
+.info-box li{
   display: inline-block;
   margin: 6px;
   list-style: none;
 }
-.box li a{
-  color: white;
+.info-box li a{
+  color: black;
   text-decoration: none;
   font-size: 60px;
   transition: all ease-in-out 250ms;
 }
-.box li a:hover{
+.info-box li a:hover{
   color: #b9b9b9;
 }
