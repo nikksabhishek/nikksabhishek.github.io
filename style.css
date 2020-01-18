@@ -31,13 +31,13 @@ body{
 
 .info-box{
   position : absolute;
-  left : 38%;
+  left : 39%;
   z-index : 1;
   width: 500px;
   height : 440px;
   padding: 40px;
   margin: auto;
-  margin-top: 4%;
+  margin-top: 3%;
   color: black;
 }
 
